@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/registry/mock"
-	"github.com/micro/go-micro/selector"
+	"github.com/bottos-project/go-micro/registry"
+	"github.com/bottos-project/go-micro/registry/mock"
+	"github.com/bottos-project/go-micro/selector"
 )
 
 func TestCallAddress(t *testing.T) {

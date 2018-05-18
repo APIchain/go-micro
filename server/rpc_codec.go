@@ -3,10 +3,10 @@ package server
 import (
 	"bytes"
 
-	"github.com/micro/go-micro/codec"
-	"github.com/micro/go-micro/codec/jsonrpc"
-	"github.com/micro/go-micro/codec/protorpc"
-	"github.com/micro/go-micro/transport"
+	"github.com/bottos-project/go-micro/codec"
+	"github.com/bottos-project/go-micro/codec/jsonrpc"
+	"github.com/bottos-project/go-micro/codec/protorpc"
+	"github.com/bottos-project/go-micro/transport"
 	"github.com/pkg/errors"
 )
 

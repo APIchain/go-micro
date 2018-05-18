@@ -10,25 +10,25 @@ import (
 	"time"
 
 	"github.com/micro/cli"
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/server"
+	"github.com/bottos-project/go-micro/client"
+	"github.com/bottos-project/go-micro/server"
 
 	// brokers
-	"github.com/micro/go-micro/broker"
-	"github.com/micro/go-micro/broker/http"
+	"github.com/bottos-project/go-micro/broker"
+	"github.com/bottos-project/go-micro/broker/http"
 
 	// registries
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/registry/consul"
-	"github.com/micro/go-micro/registry/mdns"
+	"github.com/bottos-project/go-micro/registry"
+	"github.com/bottos-project/go-micro/registry/consul"
+	"github.com/bottos-project/go-micro/registry/mdns"
 
 	// selectors
-	"github.com/micro/go-micro/selector"
-	"github.com/micro/go-micro/selector/cache"
+	"github.com/bottos-project/go-micro/selector"
+	"github.com/bottos-project/go-micro/selector/cache"
 
 	// transports
-	"github.com/micro/go-micro/transport"
-	thttp "github.com/micro/go-micro/transport/http"
+	"github.com/bottos-project/go-micro/transport"
+	thttp "github.com/bottos-project/go-micro/transport/http"
 )
 
 type Cmd interface {

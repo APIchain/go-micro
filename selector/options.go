@@ -3,7 +3,7 @@ package selector
 import (
 	"context"
 
-	"github.com/micro/go-micro/registry"
+	"github.com/bottos-project/go-micro/registry"
 )
 
 type Options struct {

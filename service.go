@@ -9,10 +9,10 @@ import (
 
 	"github.com/micro/cli"
 	"github.com/micro/go-log"
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/cmd"
-	"github.com/micro/go-micro/metadata"
-	"github.com/micro/go-micro/server"
+	"github.com/bottos-project/go-micro/client"
+	"github.com/bottos-project/go-micro/cmd"
+	"github.com/bottos-project/go-micro/metadata"
+	"github.com/bottos-project/go-micro/server"
 )
 
 type service struct {

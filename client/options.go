@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/micro/go-micro/broker"
-	"github.com/micro/go-micro/codec"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/selector"
-	"github.com/micro/go-micro/transport"
+	"github.com/bottos-project/go-micro/broker"
+	"github.com/bottos-project/go-micro/codec"
+	"github.com/bottos-project/go-micro/registry"
+	"github.com/bottos-project/go-micro/selector"
+	"github.com/bottos-project/go-micro/transport"
 )
 
 type Options struct {

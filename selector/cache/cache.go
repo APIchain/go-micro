@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/micro/go-log"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/selector"
+	"github.com/bottos-project/go-micro/registry"
+	"github.com/bottos-project/go-micro/selector"
 )
 
 type cacheSelector struct {

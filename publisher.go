@@ -3,7 +3,7 @@ package micro
 import (
 	"context"
 
-	"github.com/micro/go-micro/client"
+	"github.com/bottos-project/go-micro/client"
 )
 
 type publisher struct {

@@ -7,7 +7,7 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/micro/go-micro/codec"
+	"github.com/bottos-project/go-micro/codec"
 )
 
 type flusher interface {
