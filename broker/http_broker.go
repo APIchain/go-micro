@@ -22,10 +22,10 @@ import (
 	"github.com/bottos-project/go-micro/broker/codec/json"
 	merr "github.com/bottos-project/go-micro/errors"
 	"github.com/bottos-project/go-micro/registry"
-	"github.com/micro/go-rcache"
-	maddr "github.com/micro/util/go/lib/addr"
-	mnet "github.com/micro/util/go/lib/net"
-	mls "github.com/micro/util/go/lib/tls"
+	"github.com/bottos-project/go-rcache"
+	maddr "github.com/bottos-project/util/go/lib/addr"
+	mnet "github.com/bottos-project/util/go/lib/net"
+	mls "github.com/bottos-project/util/go/lib/tls"
 	"github.com/pborman/uuid"
 )
 

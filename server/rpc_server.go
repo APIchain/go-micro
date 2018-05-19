@@ -17,7 +17,7 @@ import (
 	"github.com/bottos-project/go-micro/registry"
 	"github.com/bottos-project/go-micro/transport"
 
-	"github.com/micro/util/go/lib/addr"
+	"github.com/bottos-project/util/go/lib/addr"
 )
 
 type rpcServer struct {
